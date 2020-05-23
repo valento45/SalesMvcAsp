@@ -18,7 +18,7 @@ namespace SalesMvcAsp.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Projeto MVC de vendas em ASP.NET Core";
-            ViewData["Software"] = "TrustE";
+            ViewData["Software"] = "TrustE \r\n\r\n\r\nVersão 1.0 ";
             return View();
         }
 
