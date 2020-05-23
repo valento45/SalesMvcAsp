@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SalesMvcAsp.Models;
+using SalesMvcAsp.Models.ViewModels;
 
 namespace SalesMvcAsp.Controllers
 {
@@ -17,8 +17,8 @@ namespace SalesMvcAsp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Projeto MVC de vendas em ASP.NET Core";
+            ViewData["Software"] = "TrustE";
             return View();
         }
 
